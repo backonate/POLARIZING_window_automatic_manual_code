@@ -10,11 +10,11 @@
 AccelStepper myStepper(AccelStepper::FULL4WIRE, PIN8, PIN9, PIN10, PIN11);
 
 //Some motor specs to keep settings consistent and similar
-#define SPEED 200.0
-#define MAX_SPEED 500.0
-#define MAX_ACCELERATION 500.0
+#define SPEED 1000.0
+#define MAX_SPEED 10000.0
+#define MAX_ACCELERATION 1000.0
 #define INITIAL_POSITION 0
-#define MAX_POSITION_LIMIT -230 //230 steps counterclockwise
+#define MAX_POSITION_LIMIT -238 //230 steps counterclockwise
 
 //Joystick Y axis input
 #define INPUT_Y A0
